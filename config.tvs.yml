@@ -6,17 +6,17 @@ refs:
     image: directv.png
 
 
-defaultChannel: 0
+defaultChannel: 1
 
 channels:
-- number: 0
+- number: 1
   name: Weird Al Lottery
   keno:
   drawingMinutes: 5
   drawIntervalMs: 400
   centerText: Weird Al Lottery - WAL
 
-- number: 1
+- number: 2
   name: Program Guide
   title: Electronic Program Guide
   noise: 0.1
@@ -32,43 +32,43 @@ channels:
       - "Greenhill cable - you ever seen a buttersock?"
 
     
-- number: 2
+- number: 3
   name: Oak Ridge TV
   video: https://ch3.tvs.gcpw.art/stream_480p.m3u8
 
 
-- number: 3
+- number: 4
   name: Albuquerque
   video: https://cmd-hue.github.io/albuquerque.mp4
 
-- number: 4
+- number: 5
   name: Greenhill Public Access
   video: https://ch2.tvs.gcpw.art/stream_480p.m3u8
   backgroundAudio: https://cmd-hue.github.io/albuquerque.mp3
 
 
-- number: 5
+- number: 6
   name: Placeholder Channel
   ref: placeholder
   backgroundAudio: https://cmd-hue.github.io/albuquerque.mp3
   noise: 0.2
 
-- number: 6
+- number: 7
   name: Southwest Florida weather and live streaming webcams
   twitch: capeweather
 
-- number: 7
+- number: 8
   name: osd
   osd:
   tuner: true
   info: true
   receiver: true
 
-- number: 8
+- number: 9
   name: DirecTV ScreenSaver
   bouncing-logo: dtvlogo.webp
 
-- number: 9
+- number: 10
   name: CMDTV
   iframe:
   src: https://cmd-hue.github.io/cmdtv/

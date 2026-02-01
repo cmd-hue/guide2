@@ -1,0 +1,22 @@
+{
+    "defaults": {
+        "background": "black",
+        "color": "white",
+        "fontFamily": "Prevue Grid",
+        "fontSize": "1.5rem"
+    },
+    "pages": [
+        {
+            "lines": [
+                { "text": "Nexus S 4G" },
+                { "text": "Only from Sprint." }
+            ]
+        },
+{
+            "lines": [
+                { "text": "Weather" },
+                { "text": "Ch. 10" }
+            ]
+        }
+    ]
+}

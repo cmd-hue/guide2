@@ -12,8 +12,33 @@ channels:
   title: CMD HUE Program Guide
   noise: 0.1
   backgroundAudio: https://cmd-hue.github.io/assets/joyfulblud.mp3
-  guide:
-
+  guide: 
+        logo: ./placeholders/guide-header.png
+        alerts: 
+          - position: 12
+            text: |
+              Severe Thunderstorm Warning issued for Greenhill County until 6:00 PM
+          - position: 150
+            text: | 
+              Nickelodeon Marathon starting at 8:00 PM every night in Greenhill!
+  v-split: 
+    a: 
+      loop:
+      - slideshow: 
+          duration: 10 
+          images:
+            - ./placeholders/tips-02.png
+            - ./placeholders/guide-ad-2.png
+            - ./placeholders/tips-01.png
+      - basic-text:
+          src: ./guide-ads.json
+          autoAdvance: true
+      - slideshow:
+          duration: 10
+          images:
+            - ./placeholders/guide-ad-3.png
+            - ./placeholders/tips-03.png
+            - ./placeholders/guide-ad.png
 
 - number: 2
   abbr: Goob18
@@ -56,6 +81,7 @@ channels:
 - number: 7
   name: CMD HUE Radio
   abbr: CMDRAD
+  image: directv.png
   backgroundAudio: http://radio.plaza.one/mp3
   backgroundAudioOptions:
     description: Nightwave Plaza Radio
@@ -75,3 +101,11 @@ channels:
   name: Greenhill Public Access
   abbr: PUBACC
   video: https://ch2.tvs.gcpw.art/stream_480p.m3u8
+
+- number: 10
+  name: WX WeatherStar CMD HUE
+  abbr: WX
+  weather: 
+    logo: https://cmd-hue.github.io/logo.png # Required. Channel logo in the corner
+    provider: usa # Required. This is based on data from the US National Weather Service, and as such only works in the US.
+    units: metric # Required. The units to use; either imperial or metric

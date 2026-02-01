@@ -14,9 +14,9 @@ channels:
   name: texas wexas mexas
   pip:
     a:
-      video: https://ch3.tvs.gcpw.art/stream_480p.m3u8
-    b:
       ref: placeholder
+    b:
+      video: https://ch3.tvs.gcpw.art/stream_480p.m3u8
 
 - number: 2
   name: Program Guide
@@ -75,3 +75,11 @@ channels:
   iframe:
   src: https://cmd-hue.github.io/cmdtv/
 
+- number: 11
+  name: Gamsung
+  slideshow:
+  duration: 10
+  images:
+  - placeholders/guide-ad.png
+  - placeholders/tips-01.png
+  - placeholders/guide-ad-2.png

@@ -102,7 +102,7 @@ channels:
   abbr: KENO
   backgroundAudio: https://n0ab-e2.revma.ihrhls.com/zc1701/hls.m3u8?rj-ttl=5&rj-tok=AAABnBqpKrMAAIXmuXV3e0Y63g&streamid=1701&zip=&aw_0_1st.playerid=iHeartRadioWebPlayer&aw_0_1st.skey=11554381129&clientType=web&companionAds=false&deviceName=web-mobile&dist=iheart&host=webapp.US&listenerId=&playedFrom=157&pname=live_profile&profileId=11554381129&stationid=1701&terminalId=159&territory=US
   keno:
-  drawingMinutes: 2
+  drawingMinutes: 3
   drawIntervalMs: 1000
   centerText: Falling in Lottery Keno Service
 

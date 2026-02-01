@@ -9,11 +9,14 @@ refs:
 defaultChannel: 1
 
 channels:
+
 - number: 1
-  name: Weird Al Lottery
-  keno:
-  drawingMinutes: 5
-  drawIntervalMs: 400
+  name: texas wexas mexas
+  pip:
+    a:
+      video: https://ch3.tvs.gcpw.art/stream_480p.m3u8
+    b:
+      ref: placeholder
 
 - number: 2
   name: Program Guide

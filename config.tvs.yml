@@ -18,7 +18,6 @@ channels:
     nowPlayingProvider: plaza-one 
 osd:
   theme: sat2012
-  aspectRatioBehavior: stretch 
 
 - number: 2
   abbr: RED

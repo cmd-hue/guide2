@@ -14,7 +14,6 @@ channels:
   keno:
   drawingMinutes: 5
   drawIntervalMs: 400
-  centerText: Weird Al Lottery - WAL
 
 - number: 2
   name: Program Guide

@@ -23,7 +23,6 @@ channels:
 - number: 2
   abbr: Goob18
   name: Goob18 YouTube TV
-   noise: 0.1
   backgroundAudio: http://cmd-hue.github.io/assets/joyfulblud.mp3
   iframe: 
     src: https://goob18.github.io/ 

@@ -6,9 +6,15 @@ refs:
     image: directv.png
 
 
-defaultChannel: 1
+defaultChannel: 0
 
 channels:
+- number: 0
+  name: Weird Al Lottery
+  keno:
+  drawingMinutes: 5
+  drawIntervalMs: 400
+  centerText: Weird Al Lottery - WAL
 
 - number: 1
   name: Program Guide
@@ -40,40 +46,30 @@ channels:
   video: https://ch2.tvs.gcpw.art/stream_480p.m3u8
   backgroundAudio: https://cmd-hue.github.io/albuquerque.mp3
 
-- number: 5
-  name: Weird Al Lottery
-  keno:
-  drawingMinutes: 5
-  drawIntervalMs: 400
-  centerText: Weird Al Lottery - WAL
 
-- number: 6
+- number: 5
   name: Placeholder Channel
   ref: placeholder
   backgroundAudio: https://cmd-hue.github.io/albuquerque.mp3
   noise: 0.2
 
-- number: 7
+- number: 6
   name: Southwest Florida weather and live streaming webcams
   twitch: capeweather
 
-- number: 8
+- number: 7
   name: osd
   osd:
   tuner: true
   info: true
   receiver: true
 
-- number: 9
+- number: 8
   name: DirecTV ScreenSaver
   bouncing-logo: dtvlogo.webp
 
-- number: 10
+- number: 9
   name: CMDTV
   iframe:
   src: https://cmd-hue.github.io/cmdtv/
 
-- number: 11
-  name: Mac OS (NO BOOT DISK)
-  iframe:
-  src: https://gcpw.art/exhibits/bootdisk/

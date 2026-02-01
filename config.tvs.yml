@@ -13,9 +13,9 @@ channels:
   noise: 0.1
   backgroundAudio: http://radio.plaza.one/mp3
   backgroundAudioOptions:
-    description: Nightwave Plaza Radio # Optional. Credits will appear in the Info OSD
-    nowPlayingUrl: https://api.plaza.one/status # Optional. If the radio service you're using has a song history API you can link to it here.
-    nowPlayingProvider: plaza-one # Required if using nowPlayingUrl. Only a few providers are supported right now; see the documentation for more info.
+    description: Nightwave Plaza Radio 
+    nowPlayingUrl: https://api.plaza.one/status 
+    nowPlayingProvider: plaza-one 
   guide:
     theme: sat2007
     themeOptions:
@@ -85,11 +85,3 @@ channels:
   name: Greenhill Public Access
   abbr: PUBACC
   video: https://ch2.tvs.gcpw.art/stream_480p.m3u8
-
-- number: 10
-  name: WX WeatherStar CMD HUE
-  abbr: WX
-  weather: 
-    logo: https://cmd-hue.github.io/logo.png # Required. Channel logo in the corner
-    provider: usa # Required. This is based on data from the US National Weather Service, and as such only works in the US.
-    units: metric # Required. The units to use; either imperial or metric

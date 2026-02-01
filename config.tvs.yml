@@ -1,6 +1,10 @@
 noise: 0.15
 shadowMask: aperture-grille
 bezel: flat
+refs:
+  placeholder: 
+    image: directv.png
+
 
 defaultChannel: 1
 
@@ -37,7 +41,13 @@ channels:
   keno:
   drawingMinutes: 6
   drawIntervalMs: 2000
+  centerText: Falling in Lottery
 
 - number: 5
-  name: Nick
-  video: https://a1xs.vip/1000051
+  name: Screaming Slides
+  slideshow:
+  duration: 10
+  images:
+  - https://picsum.photos/id/640/480
+  - https://picsum.photos/id/640/480
+  - https://picsum.photos/id/640/480

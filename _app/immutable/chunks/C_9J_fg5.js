@@ -1,0 +1,1 @@
+import{a0 as e,a9 as f,n as i,o as d,O as p}from"./pw744FVa.js";function c(r,t){i&&d(p(r)),e(()=>{var a=t();for(var s in a){var o=a[s];o?r.style.setProperty(s,o):r.style.removeProperty(s)}}),f(()=>{r.remove()})}export{c};

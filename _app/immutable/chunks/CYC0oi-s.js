@@ -1,0 +1,1 @@
+import{n as l}from"./pw744FVa.js";function r(s,e,c){var n=s.__className,a=t(e);l&&s.className===a?s.__className=a:(n!==a||l&&s.className!==a)&&(e==null&&!c?s.removeAttribute("class"):s.className=a,s.__className=a)}function t(s,e){return(s??"")+""}export{r as s};

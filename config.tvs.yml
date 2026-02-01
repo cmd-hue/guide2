@@ -13,11 +13,6 @@ channels:
   noise: 0.1
   backgroundAudio: https://cmd-hue.github.io/assets/joyfulblud.mp3
   guide:
-    theme: 1989
-    themeOptions:
-      title: CMD Cable TV Guide
-      ticker: 
-      - "Hypercom cable - connecting you to the future"
 
 
 - number: 2
@@ -27,12 +22,56 @@ channels:
   iframe: 
     src: https://goob18.github.io/ 
 
-- number: 3
-  name: Nickelodeon
-  abbr: NKHD
-  video: http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
 
+
+- number: 3 
+  abbr: Retro
+  name: Retro TV
+  visualizer:
+  src: https://radio.plaza.one/mp3
+  visualization: 1
+  visualizationDuration: 0
+    
 - number: 4
-  name: TBS
-  abbr: TBSHD
-  video: http://fl51.moveonjoy.com/TBS/index.m3u8
+  name: News
+  abbr: NEWS
+  feed-reader:
+    src: https://docs.tvs.gcpw.art/tvs-changelog.xml
+    title: News
+    refreshInterval: 300
+    scrollSpeed: 35
+    scrollDelay: 6
+
+- number: 5
+  name: Oak Ridge TV
+  abbr: ORTV
+  video: https://ch3.tvs.gcpw.art/stream_480p.m3u8
+
+- number: 6
+  name: Gonzo Movies
+  abbr: GNZMVS
+  image: directv.png
+  
+
+- number: 7
+  name: CMD HUE Radio
+  abbr: CMDRAD
+  backgroundAudio: http://radio.plaza.one/mp3
+  backgroundAudioOptions:
+    description: Nightwave Plaza Radio
+    nowPlayingUrl: https://api.plaza.one/status
+    nowPlayingProvider: plaza-one
+
+- number: 8
+  name: Falling in Lottery - Keno
+  abbr: KENO
+  backgroundAudio: https://n0ab-e2.revma.ihrhls.com/zc1701/hls.m3u8?rj-ttl=5&rj-tok=AAABnBqpKrMAAIXmuXV3e0Y63g&streamid=1701&zip=&aw_0_1st.playerid=iHeartRadioWebPlayer&aw_0_1st.skey=11554381129&clientType=web&companionAds=false&deviceName=web-mobile&dist=iheart&host=webapp.US&listenerId=&playedFrom=157&pname=live_profile&profileId=11554381129&stationid=1701&terminalId=159&territory=US
+  keno:
+  drawingMinutes: 2
+  drawIntervalMs: 1000
+  centerText: Falling in Lottery Keno Service
+
+- number: 9
+  name: Greenhill Public Access
+  abbr: PUBACC
+  video: https://ch2.tvs.gcpw.art/stream_480p.m3u8

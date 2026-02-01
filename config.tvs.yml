@@ -22,9 +22,9 @@ channels:
       - slideshow: # Image slideshow; at the end of it we'll advance to the next component in the loop.
           duration: 10 # Number of seconds per slide
           images:
-            - /placeholders/tips-02.png
-            - /placeholders/guide-ad-2.png
-            - /placeholders/tips-01.png
+            - ./placeholders/tips-02.png
+            - ./placeholders/guide-ad-2.png
+            - ./placeholders/tips-01.png
       - basic-text: # The basic-text engine can display a text slideshow from a data source with rich formatting.
           src: /config-examples/basic-text/guide-ads.json # This functionality will be improved in future versions; see https://greenhillplaza.notion.site/Basic-Text-9fdb10f4dc7841d28fe92e09904d9aea?pvs=4
           autoAdvance: true
@@ -32,12 +32,12 @@ channels:
           duration: 10
           images:
             
-            - /placeholders/guide-ad-3.png
-            - /placeholders/guide-ad-2.png
-            - /placeholders/guide-ad.png
+            - ./placeholders/guide-ad-3.png
+            - ./placeholders/guide-ad-2.png
+            - ./placeholders/guide-ad.png
     b: # B is the bottom part
       guide: # Program guides read the current channel lineup to reconstruct listings based off channel numbers, title and description. https://greenhillplaza.notion.site/Program-Guides-46e80919a3754efa9769f74dd00946fe?pvs=4
-        logo: /placeholders/guide-header.png # Logo to show at the top of the guide
+        logo: ./placeholders/guide-header.png # Logo to show at the top of the guide
         alerts: # "Alerts" that show up at certain positions in the guide.
           - position: 12 # The channel to show the alert after. Doesn't need to be a real channel.
             text: |

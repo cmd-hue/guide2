@@ -31,17 +31,15 @@ osd:
       - Parental
 
 - number: 2
-  abbr: Goob18
-  name: Goob18 YouTube TV
-  backgroundAudio: http://cmd-hue.github.io/assets/joyfulblud.mp3
-  iframe: 
-    src: https://goob18.github.io/ 
+  abbr: RED
+  name: Red Screen
+  color: red
 
 
 
 - number: 3 
-  abbr: Retro
-  name: Retro TV
+  abbr: VIZ
+  name: Visualizer
   visualizer:
   src: https://radio.plaza.one/mp3
   visualization: 1
@@ -64,17 +62,8 @@ osd:
   
 
 - number: 6
-  name: CMD HUE Radio
-  abbr: CMDRAD
-  image: directv.png
-  backgroundAudio: http://radio.plaza.one/mp3
-  backgroundAudioOptions:
-    description: Nightwave Plaza Radio
-    nowPlayingUrl: https://api.plaza.one/status
-    nowPlayingProvider: plaza-one
-
-- number: 7
   name: Falling in Lottery - Keno
   keno:
   drawingMinutes: 3
   drawIntervalMs: 1000
+

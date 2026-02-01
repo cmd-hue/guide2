@@ -19,16 +19,6 @@ channels:
 osd:
   theme: sat2012
   aspectRatioBehavior: stretch 
-  themeOptions: 
-    providerLogo: false
-    extraMenuItemsBefore: 
-      - Messages
-    extraMenuItemsAfter: # More non-functional menu items.
-      - CC
-      - Last 4
-      - Favorites
-      - Audio/Video
-      - Parental
 
 - number: 2
   abbr: RED

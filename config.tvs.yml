@@ -15,6 +15,7 @@ channels:
   abbr: EPG
   title: Electronic Program Guide
   noise: 0.1
+  backgroundAudio: https://cmd-hue.github.io/albuquerque.mp3
   guide:
     theme: 1989
     themeOptions:
@@ -30,9 +31,14 @@ channels:
   name: Oak Ridge TV
   abbr: ORTV
   video: https://ch3.tvs.gcpw.art/stream_480p.m3u8
-  backgroundAudio: https://cmd-hue.github.io/albuquerque.mp3
+
 
 - number: 3
   name: Albuquerque
   video: https://cmd-hue.github.io/albuquerque.mp4
 
+- number: 4
+  name: Greenhill Public Access
+  abbr: PUBACC
+  video: https://ch2.tvs.gcpw.art/stream_480p.m3u8
+  backgroundAudio: https://cmd-hue.github.io/albuquerque.mp3

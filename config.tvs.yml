@@ -16,14 +16,19 @@ channels:
     description: Nightwave Plaza Radio 
     nowPlayingUrl: https://api.plaza.one/status 
     nowPlayingProvider: plaza-one 
-  guide:
-    theme: sat2007
-    themeOptions:
-      title: Greenhill Cable TV Guide
-      ticker:
-      - "Greenhill cable - connecting you to the future"
-      - "Sponsored by Oak Ridge - Visit our new factory outlet store"
-      - "Sponsored by Falling in Lottery - New members get $15 in free keno plays - Join today and play for free!"
+osd:
+  theme: sat2012
+  aspectRatioBehavior: stretch 
+  themeOptions: 
+    providerLogo: false
+    extraMenuItemsBefore: 
+      - Messages
+    extraMenuItemsAfter: # More non-functional menu items.
+      - CC
+      - Last 4
+      - Favorites
+      - Audio/Video
+      - Parental
 
 - number: 2
   abbr: Goob18
@@ -56,14 +61,9 @@ channels:
   name: Oak Ridge TV
   abbr: ORTV
   video: https://ch3.tvs.gcpw.art/stream_480p.m3u8
-
-- number: 6
-  name: Gonzo Movies
-  abbr: GNZMVS
-  image: directv.png
   
 
-- number: 7
+- number: 6
   name: CMD HUE Radio
   abbr: CMDRAD
   image: directv.png
@@ -73,15 +73,8 @@ channels:
     nowPlayingUrl: https://api.plaza.one/status
     nowPlayingProvider: plaza-one
 
-- number: 8
+- number: 7
   name: Falling in Lottery - Keno
-  abbr: KENO
   keno:
   drawingMinutes: 3
   drawIntervalMs: 1000
-  centerText: Falling in Lottery Keno Service
-
-- number: 9
-  name: Greenhill Public Access
-  abbr: PUBACC
-  video: https://ch2.tvs.gcpw.art/stream_480p.m3u8

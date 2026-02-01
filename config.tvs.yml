@@ -25,29 +25,14 @@ channels:
       - "Try out Watermelons! Now available at a grocery store near you!"
       - "Greenhill cable - you ever seen a buttersock?"
 
-- number: 2
-  abbr: RED
-  name: Red Screen
-  color: red
-
     
-- number: 3
+- number: 2
   name: Oak Ridge TV
   abbr: ORTV
   video: https://ch3.tvs.gcpw.art/stream_480p.m3u8
+  backgroundAudio: https://cmd-hue.github.io/albuquerque.mp3
 
-- number: 4
-  name: Falling in Lottery - Keno
-  keno:
-  drawingMinutes: 6
-  drawIntervalMs: 2000
-  centerText: Falling in Lottery
+- number: 3
+  name: Albuquerque
+  video: https://cmd-hue.github.io/albuquerque.mp4
 
-- number: 5
-  name: Screaming Slides
-  slideshow:
-  duration: 10
-  images:
-  - https://picsum.photos/id/640/480
-  - https://picsum.photos/id/640/480
-  - https://picsum.photos/id/640/480

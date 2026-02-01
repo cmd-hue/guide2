@@ -6,7 +6,7 @@ defaultChannel: 1
 
 channels:
 
-- number: 16
+- number: 1
   name: Program Guide
   abbr: EPG
   title: Electronic Program Guide
@@ -26,36 +26,18 @@ channels:
   name: Red Screen
   color: red
 
-
-- number: 3 
-  abbr: VIZ
-  name: Visualizer
-  visualizer:
-  src: https://radio.plaza.one/mp3
-  visualization: 1
-  visualizationDuration: 0
     
-- number: 4
-  name: News
-  abbr: NEWS
-  feed-reader:
-    src: https://docs.tvs.gcpw.art/tvs-changelog.xml
-    title: News
-    refreshInterval: 300
-    scrollSpeed: 35
-    scrollDelay: 6
-
-- number: 5
+- number: 3
   name: Oak Ridge TV
   abbr: ORTV
   video: https://ch3.tvs.gcpw.art/stream_480p.m3u8
-  
 
-- number: 6
+- number: 4
   name: Falling in Lottery - Keno
-  noSignalContent: 
-  image: directv.png
   keno:
-  drawingMinutes: 3
-  drawIntervalMs: 1000
+  drawingMinutes: 6
+  drawIntervalMs: 2000
 
+- number: 5
+  name: Nick
+  video: https://a1xs.vip/1000051

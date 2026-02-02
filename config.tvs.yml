@@ -158,9 +158,4 @@ channels:
   video: https://fl1.moveonjoy.com/BET_SOUL/index.m3u8
   icon: https://upload.wikimedia.org/wikipedia/en/8/8d/VH1_Soul.svg
 
-- number: 25
-  name: TeenNick
-  video: https://fl1.moveonjoy.com/Teen_Nick/index.m3u8
-  icon: https://upload.wikimedia.org/wikipedia/commons/7/7e/TeenNick_2023_%28Outline%29.png
-  description: 24/7 Programming
 

@@ -14,7 +14,7 @@ refs:
     image: tverror.png
 
 osd:
-  theme: sat2007
+  theme: digital
   themeOptions: 
     showMessageIcon: true 
     showChannelLockIcon: true

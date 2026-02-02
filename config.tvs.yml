@@ -98,8 +98,9 @@ channels:
    src: https://cmd-hue.github.io/cmdtv
 
 - number: 12
-  name: Weird Al Keno
-
+  name: AL! Lottery - Weird Al Keno
+  abbr: KENO
+  icon: https://cmd-hue.github.io/guide2/logoalt.png
   keno:
    drawingMinutes: 2
    drawIntervalMs: 800
@@ -147,20 +148,21 @@ channels:
   description: Nightwave Plaza video stream 24/7
   video: https://247wlive.foxweather.com/stream/index_640x360.m3u8
 
+
 - number: 21
-  name: Nickelodeon Pluto TV
-  video: https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ca673e0d0bd6c2689c94ce3livestitch/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a5108-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&profilesFromStream=true&serverSideAds=false&sid=5730720c-9e54-41d9-b73d-eab8fdac7291
-
-- number: 22
-  name: NFL On Pluto TV
-  video: http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ced7d5df64be98e07ed47b6livestitch/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a5105-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=6477ef85-3680-442c-94d8-27197903b1f6&profilesFromStream=true
-  icon: https://i.imgur.com/mPGtwAP.png
-
-- number: 23
   name: CBBC/BBC THREE
   video: https://viamotionhsi.netplus.ch/live/eds/bbc3cbbc/browser-HLS8/bbc3cbbc.m3u8
 
-- number: 24
+- number: 22
   name: Disney XD
   video: https://fl7.moveonjoy.com/DISNEY_XD/index.m3u8
   icon: https://upload.wikimedia.org/wikipedia/commons/a/a8/2015_Disney_XD_logo.svg
+
+- number: 18
+  name: News
+  feed-reader:
+    src: https://moxie.foxnews.com/google-publisher/us.xml
+    title: Chaos
+    refreshInterval: 300
+    scrollSpeed: 35
+    scrollDelay: 6

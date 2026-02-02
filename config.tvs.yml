@@ -67,9 +67,9 @@ channels:
 - number: 8
   name: osd
   osd:
-  tuner: true
-  info: true
-  receiver: true
+   tuner: true
+   info: true
+   receiver: true
 
 - number: 9
   name: DirecTV ScreenSaver
@@ -85,3 +85,16 @@ channels:
   name: CMDTV
   iframe: 
    src: https://cmd-hue.github.io/cmdtv
+
+- number: 12
+  name: Weird Al Keno
+  keno:
+   drawingMinutes: 2
+   drawIntervalMs: 800
+   centerText: Weird Al Keno
+   volume: 0.8
+  ref: webn
+
+- number: 13
+  name: Audio Visualizer Test
+  visualizer: https://cmd-hue.github.io/assets/joyfulblud.mp3

@@ -159,9 +159,34 @@ channels:
   description: Nightshares With nick at nite 5:00PM - 6:00AM Eastern Time
   icon: https://upload.wikimedia.org/wikipedia/commons/5/5f/Nickelodeon_logo_%282003%2C_short_name%29.svg
 
-- number: 24z
+- number: 24
   name: VH1 Soul
   video: https://fl1.moveonjoy.com/BET_SOUL/index.m3u8
   icon: https://upload.wikimedia.org/wikipedia/en/8/8d/VH1_Soul.svg
 
 
+- number: 25
+  name: FGTEEV
+  video: https://amg00285-amg00285c3-firetv-us-6596.playouts.now.amagi.tv/playlist240p.m3u8
+  icon: https://yt3.ggpht.com/8lYzEQAP23681vKEG0ahOTlsM6kBwvq8fNDWgNzhq8cYTlPcBVWGZifL6huG9M_3AedplOvpjlQ=s176-c-k-c0x00ffffff-no-rj-mo
+
+- number: 26
+  name: NickToons
+  description: Nicktoons is the brand name used by Nickelodeon for their original animated series.
+  video: https://fl1.moveonjoy.com/NICKTOONS/index.m3u8
+
+- number: 27
+  name: California Music
+  video: https://cmc-ono.amagi.tv/hls/amagi_hls_data_cmcAAAAAA-cmc-ono/CDN/640x360_1205600/index.m3u8
+
+- number: 28
+  name: Disney Channel
+  video: https://fl31.moveonjoy.com/DISNEY/index.m3u8
+
+- number: 29
+  name: BBC Three
+  video: https://streamer.nexyl.uk/39290a19-b8dd-43ea-b8dc-081c37790f24.m3u8
+
+- number: 30
+  name: Retro TV
+  video: https://retrotv.streamguys1.com/retrotv/playlist.m3u8

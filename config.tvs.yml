@@ -4,8 +4,14 @@ bezel: flat
 refs:
   placeholder: 
     image: directv.png
-
-
+  webn:
+  backgroundAudio: https://stream.revma.ihrhls.com/zc1701/hls.m3u8?streamid=1701&zip=&aw_0_1st.playerid=iHeartRadioWebPlayer&aw_0_1st.skey=11554381129&clientType=web&companionAds=false&deviceName=web-mobile&dist=iheart&host=webapp.US&listenerId=&playedFrom=157&pname=live_profile&profileId=11554381129&stationid=1701&terminalId=159&territory=US
+  placeholder2: 
+    image: place2.png
+  closed: 
+    image: deadchannel.png
+  error: 
+    image: tverror.png
 defaultChannel: 1
 
 channels:
@@ -52,12 +58,11 @@ channels:
 - number: 6
   name: Placeholder Channel
   ref: placeholder
-  backgroundAudio: https://cmd-hue.github.io/albuquerque.mp3
-  noise: 0.2
+  noise: 0.5
 
 - number: 7
   name: Southwest Florida weather and live streaming webcams
-  twitch: capeweather
+  ref: error
 
 - number: 8
   name: osd
@@ -71,15 +76,12 @@ channels:
   bouncing-logo: dtvlogo.webp
 
 - number: 10
-  name: CMDTV
-  iframe:
-  src: https://cmd-hue.github.io/cmdtv/
+  name: Info Channel
+  image: info.png
+  ref: webn
 
-- number: 11
-  name: Gamsung
-  slideshow:
-  duration: 10
-  images:
-  - placeholders/guide-ad.png
-  - placeholders/tips-01.png
-  - placeholders/guide-ad-2.png
+  - number: 11
+  abbr: CTV
+  name: CMDTV
+  iframe: 
+    src: https://cmd-hue.github.io/cmdtv

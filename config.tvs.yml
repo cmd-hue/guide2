@@ -93,7 +93,6 @@ channels:
    drawIntervalMs: 800
    centerText: Weird Al Keno
    volume: 0.8
-  ref: webn
 
 - number: 13
   name: Audio Visualizer Test

@@ -1,3 +1,10 @@
+applicationTitle: DunceHouse DirecTV # What the DirecTV UI might have looked like in 2012
+
+noise: 0 
+blur: false 
+bezel: flat 
+changeChannelNoise: false
+
 refs:
   placeholder: 
     image: directv.png
@@ -28,6 +35,7 @@ osd:
 
 noSignalContent:
   image: files/DirecTV_Slide.png
+  backgroundAudio: https://file.garden/aUYIWVAKvQxCBY-_/soho-sound.mp3
 
 defaultChannel: 1
 

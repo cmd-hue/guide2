@@ -157,12 +157,3 @@ channels:
   name: Disney XD
   video: https://fl7.moveonjoy.com/DISNEY_XD/index.m3u8
   icon: https://upload.wikimedia.org/wikipedia/commons/a/a8/2015_Disney_XD_logo.svg
-
-- number: 18
-  name: News
-  feed-reader:
-    src: https://moxie.foxnews.com/google-publisher/us.xml
-    title: Chaos
-    refreshInterval: 300
-    scrollSpeed: 35
-    scrollDelay: 6

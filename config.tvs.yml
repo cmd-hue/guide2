@@ -1,4 +1,4 @@
-noise: 0.15
+noise: 0.3
 shadowMask: aperture-grille
 bezel: flat
 refs:
@@ -15,6 +15,8 @@ refs:
 
 osd:
   theme: sat2012
+  themeOptions:
+    providerLogo: https://upload.wikimedia.org/wikipedia/commons/c/cf/Direct_tv_channel.svg
 
 noSignalContent:
   image: nosignal.png
@@ -27,8 +29,7 @@ channels:
 
 - number: 1
   name: texas wexas mexas
-  video: 
-   src: https://ch3.tvs.gcpw.art/stream_480p.m3u8
+  ref: error
    
 
 - number: 2
@@ -40,6 +41,10 @@ channels:
         alerts:
           - position: 10
             image: https://upload.wikimedia.org/wikipedia/commons/4/46/Windows_7_Classic_Error_Active.png
+          - position: 30
+            image: https://upload.wikimedia.org/wikipedia/commons/1/1c/Android_4.1_lockscreen_on_Galaxy_Nexus_20120712.jpg
+          - position: 50
+            image: https://upload.wikimedia.org/wikipedia/commons/1/1c/Android_4.1_lockscreen_on_Galaxy_Nexus_20120712.jpg
 
 
     
@@ -63,7 +68,6 @@ channels:
 - number: 6
   name: Placeholder Channel
   ref: placeholder
-  noise: 0.5
 
 - number: 7
   name: Southwest Florida weather and live streaming webcams

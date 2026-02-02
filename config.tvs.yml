@@ -18,6 +18,10 @@ osd:
   themeOptions: 
     showMessageIcon: true 
     showChannelLockIcon: true
+    providerLogo: dtvlogo.webp
+
+noSignalContent:
+  image: nosignal.png
 
 defaultChannel: 1
 
@@ -90,11 +94,13 @@ channels:
 - number: 11
   abbr: CTV
   name: CMDTV
+  icon: https://cmd-hue.github.io/logo.png
   iframe: 
    src: https://cmd-hue.github.io/cmdtv
 
 - number: 12
   name: Weird Al Keno
+
   keno:
    drawingMinutes: 2
    drawIntervalMs: 800
@@ -149,6 +155,7 @@ channels:
 - number: 22
   name: NFL On Pluto TV
   video: http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ced7d5df64be98e07ed47b6livestitch/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a5105-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=6477ef85-3680-442c-94d8-27197903b1f6&profilesFromStream=true
+  icon: https://i.imgur.com/mPGtwAP.png
 
 - number: 23
   name: CBBC/BBC THREE
@@ -157,3 +164,4 @@ channels:
 - number: 24
   name: Disney XD
   video: https://fl7.moveonjoy.com/DISNEY_XD/index.m3u8
+  icon: https://upload.wikimedia.org/wikipedia/commons/a/a8/2015_Disney_XD_logo.svg

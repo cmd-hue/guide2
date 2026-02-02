@@ -139,7 +139,6 @@ channels:
 
 - number: 20
   name: Fox Weather 24/7
-  description: Nightwave Plaza video stream 24/7
   video: https://247wlive.foxweather.com/stream/index_640x360.m3u8
 
 
@@ -151,3 +150,13 @@ channels:
   name: Disney XD
   video: https://fl7.moveonjoy.com/DISNEY_XD/index.m3u8
   icon: https://upload.wikimedia.org/wikipedia/commons/a/a8/2015_Disney_XD_logo.svg
+
+- number: 23
+  name: Cartoon Network
+  video: https://fl61.moveonjoy.com/CARTOON_NETWORK/playlist.m3u8
+  description: Nightshares With Adult Swim 5:00PM - 6:00AM Eastern Time
+  icon: https://upload.wikimedia.org/wikipedia/commons/8/80/Cartoon_Network_2010_logo.svg
+
+- number: 24
+  name: Vice News
+  video: https://vicetv-vicefast2-firetv.amagi.tv/playlist.m3u8

@@ -188,5 +188,9 @@ channels:
   video: https://streamer.nexyl.uk/39290a19-b8dd-43ea-b8dc-081c37790f24.m3u8
 
 - number: 30
-  name: Retro TV
-  text: meme
+  name: Cartoon Rewind
+  video: https://amg00136-wbd-amg00136c75-tablo-us-7211.playouts.now.amagi.tv/playlist240P.m3u8
+
+- number: 31
+  name: Music Choice Rock
+  video: https://edge.music-choice-chaina.top.comcast.net/streamwebaca3/AudioChannels/44/O0U9MTc3MDA3Njc0ODtBPTE7Sz0wO1A9MDExMTA7Uz0wZTRhMmJiNmVlOGQwZGRiYmRjMDNmMjFlZjNjYzY2MGZjMjE0ZmU5/chunklist.m3u8

@@ -10,8 +10,10 @@ refs:
     image: place2.png
   closed: 
     image: deadchannel.png
+    description:  This channel is no longer available.
   error: 
     image: tverror.png
+    description: Channel not available. Please try another channel.
 
 osd:
   theme: sat2012
@@ -119,7 +121,7 @@ channels:
 
 - number: 17
   name: Film4
-  video: https://cache1a.netplus.ch/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzcwMDQ1NDA2Iiwic2lwIjoiIiwicGF0aCI6Ii9saXZlL2Vkcy9maWxtNC9icm93c2VyLUhMUzgvIiwic2Vzc2lvbl9jZG5faWQiOiIzMDY3ZmQ3NjczMDM3Y2Y1Iiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8xMC4wLjIyOS4xOSIsInNlc3Npb25fdGltZW91dCI6MCwiYXVkIjoiNTMiLCJzb3VyY2VzIjpbNDhdfQ==.Rqt_FNO-ecdsbnnVH-M_svUOQsYxyxTwMiZD3leg75LLuR4WXAzQPHaL0n46awJDj-93WBVGctMvSgkcFXP3kg==/live/eds/film4/browser-HLS8/film4.m3u8
+  ref: closed
 
 - number: 18
   name: News
@@ -157,7 +159,7 @@ channels:
   description: Nightshares With nick at nite 5:00PM - 6:00AM Eastern Time
   icon: https://upload.wikimedia.org/wikipedia/commons/5/5f/Nickelodeon_logo_%282003%2C_short_name%29.svg
 
-- number: 24
+- number: 24z
   name: VH1 Soul
   video: https://fl1.moveonjoy.com/BET_SOUL/index.m3u8
   icon: https://upload.wikimedia.org/wikipedia/en/8/8d/VH1_Soul.svg

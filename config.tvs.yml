@@ -78,10 +78,10 @@ channels:
 - number: 10
   name: Info Channel
   image: info.png
-  backgroundAudio: https://stream.revma.ihrhls.com/zc1701/hls.m3u8?streamid=1701&zip=&aw_0_1st.playerid=iHeartRadioWebPlayer&aw_0_1st.skey=11554381129&clientType=web&companionAds=false&deviceName=web-mobile&dist=iheart&host=webapp.US&listenerId=&playedFrom=157&pname=live_profile&profileId=11554381129&stationid=1701&terminalId=159&territory=US
+  ref: webn
 
-  - number: 11
+- number: 11
   abbr: CTV
   name: CMDTV
   iframe: 
-    src: https://cmd-hue.github.io/cmdtv
+   src: https://cmd-hue.github.io/cmdtv

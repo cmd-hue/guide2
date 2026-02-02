@@ -40,16 +40,10 @@ channels:
   name: Program Guide
   title: Electronic Program Guide
   noise: 0.1
-  ref: webn
   guide:
-    theme: 1989
-    themeOptions:
-      title: Greenhill Cable TV Guide
-      ticker: 
-      - "Greenhill cable - connecting you to the future"
-      - "Happy Viewing from Greenhill Cable!"
-      - "Try out Watermelons! Now available at a grocery store near you!"
-      - "Greenhill cable - you ever seen a buttersock?"
+   theme: 1989
+   themeOptions:
+      title: Cable TV Guide
 
     
 - number: 3

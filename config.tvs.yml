@@ -1,6 +1,3 @@
-noise: 0.3
-shadowMask: aperture-grille
-bezel: flat
 refs:
   placeholder: 
     image: directv.png
@@ -17,20 +14,32 @@ refs:
 
 osd:
   theme: sat2012
+  aspectRatioBehavior: stretch 
   themeOptions:
-    providerLogo: https://upload.wikimedia.org/wikipedia/commons/c/cf/Direct_tv_channel.svg
+    providerLogo: files/directv_large.png 
+    extraMenuItemsBefore:
+      - Messages
+    extraMenuItemsAfter:
+      - CC
+      - Last 4
+      - Favorites
+      - Audio/Video
+      - Parental
 
 noSignalContent:
-  image: nosignal.png
+  image: files/DirecTV_Slide.png
 
 defaultChannel: 1
 
+dimensions:
+  screenWidth: 640 
+  screenHeight: 360
 
 
 channels:
 
 - number: 1
-  name: texas wexas mexas
+  name: 
   ref: error
    
 
@@ -194,3 +203,14 @@ channels:
 - number: 31
   name: Music Choice Rock
   video: https://edge.music-choice-chaina.top.comcast.net/streamwebaca3/AudioChannels/44/O0U9MTc3MDA3Njc0ODtBPTE7Sz0wO1A9MDExMTA7Uz0wZTRhMmJiNmVlOGQwZGRiYmRjMDNmMjFlZjNjYzY2MGZjMjE0ZmU5/chunklist.m3u8
+
+- number: 32
+  name: Maryland Public Television
+  abbr: WWPB
+  icon: placeholders/pbs.png
+  title: Maryland Public Television
+  video:
+   volume: true
+   provider: hls
+   src: https://2-fss-2.streamhoster.com/pl_138/amlst:201814-1291584/chunklist_b4000000.m3u8
+

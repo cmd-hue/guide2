@@ -18,7 +18,6 @@ osd:
   themeOptions: 
     showMessageIcon: true 
     showChannelLockIcon: true
-    providerLogo: dtvlogo.webp
 
 noSignalContent:
   image: nosignal.png

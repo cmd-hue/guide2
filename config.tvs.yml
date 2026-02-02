@@ -98,7 +98,7 @@ channels:
 
 - number: 14
   name: Picsum Test
-  image: https://fastly.picsum.photos/640x480
+  image: https://fastly.picsum.photos/640/480
 
 - number: 15
   name: Toon Goggles
@@ -111,3 +111,26 @@ channels:
 - number: 17
   name: Film4
   video: https://cache1a.netplus.ch/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzcwMDQ1NDA2Iiwic2lwIjoiIiwicGF0aCI6Ii9saXZlL2Vkcy9maWxtNC9icm93c2VyLUhMUzgvIiwic2Vzc2lvbl9jZG5faWQiOiIzMDY3ZmQ3NjczMDM3Y2Y1Iiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8xMC4wLjIyOS4xOSIsInNlc3Npb25fdGltZW91dCI6MCwiYXVkIjoiNTMiLCJzb3VyY2VzIjpbNDhdfQ==.Rqt_FNO-ecdsbnnVH-M_svUOQsYxyxTwMiZD3leg75LLuR4WXAzQPHaL0n46awJDj-93WBVGctMvSgkcFXP3kg==/live/eds/film4/browser-HLS8/film4.m3u8
+
+  - number: 18
+  name: News
+  feed-reader:
+    src: https://moxie.foxnews.com/google-publisher/us.xml
+    title: News
+    refreshInterval: 300
+    scrollSpeed: 35
+    scrollDelay: 6
+
+- number: 19
+  name: Nightwave Plaza
+  description: Nightwave Plaza radio 24/7
+  visualizer:
+    src: http://radio.plaza.one/mp3 
+    visualization: 100
+    visualizationDuration: 0
+
+- number: 20
+  name: Fox Weather 24/7
+  description: Nightwave Plaza video stream 24/7
+  video: https://247wlive.foxweather.com/stream/index_640x360.m3u8
+

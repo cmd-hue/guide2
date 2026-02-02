@@ -30,11 +30,13 @@ channels:
 
 - number: 1
   name: texas wexas mexas
-  pip:
-    a:
-      ref: placeholder
-    b:
-      video: https://ch3.tvs.gcpw.art/stream_480p.m3u8
+  video: 
+   src: https://ch3.tvs.gcpw.art/stream_480p.m3u8
+
+   backgroundAudioOptions:
+    description: Nightwave Plaza Radio # Optional. Credits will appear in the Info OSD
+    nowPlayingUrl: https://api.plaza.one/status # Optional. If the radio service you're using has a song history API you can link to it here.
+    nowPlayingProvider: plaza-one # Required if using nowPlayingUrl. Only a few providers are supported right now; see the documentation for more info.
 
 - number: 2
   name: Program Guide
@@ -130,12 +132,9 @@ channels:
     scrollDelay: 6
 
 - number: 19
-  name: Nightwave Plaza
-  description: Nightwave Plaza radio 24/7
-  visualizer:
-    src: http://radio.plaza.one/mp3 
-    visualization: 100
-    visualizationDuration: 0
+  name: 90s Kids on Pluto TV
+  description: Reruns of classic Nickelodeon shows from the 1990s.
+  video: https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6452c814939a590008567a3b/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c263254-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=a2521e96-4461-4157-b0d7-865b57c5f565
 
 - number: 20
   name: Fox Weather 24/7

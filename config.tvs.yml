@@ -12,7 +12,16 @@ refs:
     image: deadchannel.png
   error: 
     image: tverror.png
+
+osd:
+  theme: sat2007
+  themeOptions: 
+    showMessageIcon: true 
+    showChannelLockIcon: true
+
 defaultChannel: 1
+
+
 
 channels:
 
@@ -28,7 +37,7 @@ channels:
   name: Program Guide
   title: Electronic Program Guide
   noise: 0.1
-  backgroundAudio: https://cmd-hue.github.io/albuquerque.mp3
+  ref: webn
   guide:
     theme: 1989
     themeOptions:
@@ -51,7 +60,9 @@ channels:
 
 - number: 5
   name: Greenhill Public Access
-  video: https://ch2.tvs.gcpw.art/stream_480p.m3u8
+  video: 
+   src: https://ch2.tvs.gcpw.art/stream_480p.m3u8
+   volume: false
   backgroundAudio: https://cmd-hue.github.io/albuquerque.mp3
 
 
@@ -65,11 +76,8 @@ channels:
   ref: error
 
 - number: 8
-  name: osd
-  osd:
-   tuner: true
-   info: true
-   receiver: true
+  name: Blue Screen 
+  color: blue
 
 - number: 9
   name: DirecTV ScreenSaver
@@ -148,4 +156,4 @@ channels:
 
 - number: 24
   name: Disney XD
-  video:
+  video: https://fl7.moveonjoy.com/DISNEY_XD/index.m3u8

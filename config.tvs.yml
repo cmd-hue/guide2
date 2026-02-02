@@ -36,13 +36,9 @@ channels:
   title: Electronic Program Guide
   noise: 0.1
   guide:
-        logo: /placeholders/guide-header.png # Logo to show at the top of the guide
-        alerts: # "Alerts" that show up at certain positions in the guide.
-          - position: 12 # The channel to show the alert after. Doesn't need to be a real channel.
-            image: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Fratercula_arctica%2C_Borgarfj%C3%B6r%C3%B0ur_eystri%2C_Iceland%2C_20240717_1132_1640.jpg/960px-Fratercula_arctica%2C_Borgarfj%C3%B6r%C3%B0ur_eystri%2C_Iceland%2C_20240717_1132_1640.jpg
-          - position: 100
-            text: The service is running smoothly. No issues to report.
-          - position: 150
+        logo: https://upload.wikimedia.org/wikipedia/commons/4/46/Windows_7_Classic_Error_Active.png
+        alerts:
+          - position: 10
             image: https://upload.wikimedia.org/wikipedia/commons/4/46/Windows_7_Classic_Error_Active.png
 
 

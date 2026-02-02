@@ -15,9 +15,6 @@ refs:
 
 osd:
   theme: digital
-  themeOptions: 
-    showMessageIcon: true 
-    showChannelLockIcon: true
 
 noSignalContent:
   image: nosignal.png
@@ -32,20 +29,22 @@ channels:
   name: texas wexas mexas
   video: 
    src: https://ch3.tvs.gcpw.art/stream_480p.m3u8
-
-   backgroundAudioOptions:
-    description: Nightwave Plaza Radio # Optional. Credits will appear in the Info OSD
-    nowPlayingUrl: https://api.plaza.one/status # Optional. If the radio service you're using has a song history API you can link to it here.
-    nowPlayingProvider: plaza-one # Required if using nowPlayingUrl. Only a few providers are supported right now; see the documentation for more info.
+   
 
 - number: 2
   name: Program Guide
   title: Electronic Program Guide
   noise: 0.1
   guide:
-   theme: 1989
-   themeOptions:
-      title: Cable TV Guide
+        logo: /placeholders/guide-header.png # Logo to show at the top of the guide
+        alerts: # "Alerts" that show up at certain positions in the guide.
+          - position: 12 # The channel to show the alert after. Doesn't need to be a real channel.
+            image: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Fratercula_arctica%2C_Borgarfj%C3%B6r%C3%B0ur_eystri%2C_Iceland%2C_20240717_1132_1640.jpg/960px-Fratercula_arctica%2C_Borgarfj%C3%B6r%C3%B0ur_eystri%2C_Iceland%2C_20240717_1132_1640.jpg
+          - position: 100
+            text: The service is running smoothly. No issues to report.
+          - position: 150
+            image: https://upload.wikimedia.org/wikipedia/commons/4/46/Windows_7_Classic_Error_Active.png
+
 
     
 - number: 3
@@ -155,3 +154,21 @@ channels:
   video: https://fl61.moveonjoy.com/CARTOON_NETWORK/playlist.m3u8
   description: Nightshares With Adult Swim 5:00PM - 6:00AM Eastern Time
   icon: https://upload.wikimedia.org/wikipedia/commons/8/80/Cartoon_Network_2010_logo.svg
+
+- number: 24
+  name: Nickelodeon
+  video: https://fl31.moveonjoy.com/NICKELODEON/index.m3u8
+  description: Nightshares With nick at nite 5:00PM - 6:00AM Eastern Time
+  icon: https://upload.wikimedia.org/wikipedia/commons/5/5f/Nickelodeon_logo_%282003%2C_short_name%29.svg
+
+- number: 25
+  name: VH1 Soul
+  video: https://fl1.moveonjoy.com/BET_SOUL/index.m3u8
+  icon: https://upload.wikimedia.org/wikipedia/en/8/8d/VH1_Soul.svg
+
+- number: 26
+  name: TeenNick
+  video: https://fl1.moveonjoy.com/Teen_Nick/index.m3u8
+  icon: https://upload.wikimedia.org/wikipedia/commons/7/7e/TeenNick_2023_%28Outline%29.png
+  description: 24/7 Programming
+

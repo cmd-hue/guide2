@@ -36,7 +36,6 @@ osd:
 noSignalContent:
   image: files/DirecTV_Slide.png
   backgroundAudio: https://file.garden/aUYIWVAKvQxCBY-_/music/enjoydaily.mp3
-  title: OFF AIR
 
 defaultChannel: 1
 
@@ -270,3 +269,4 @@ channels:
   abbr: PREV
   title: Sneak Prevue
   description: Preview the hottest movies on Pay-Per-View and On Demand!
+

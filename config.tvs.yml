@@ -87,7 +87,6 @@ channels:
 
 - number: 6
   name: Placeholder Channel
-  ref: placeholder
 
 - number: 7
   name: Southwest Florida weather and live streaming webcams
@@ -117,8 +116,8 @@ channels:
   abbr: KENO
   icon: https://cmd-hue.github.io/guide2/logoalt.png
   keno:
-   drawingMinutes: 2
-   drawIntervalMs: 800
+   drawingMinutes: 1
+   drawIntervalMs: 1000
    centerText: Weird Al Keno
 
 - number: 13
@@ -264,3 +263,9 @@ channels:
     youtube-playlist: UUf7Jwj9fkrf1adN4fMmTkpug
    b:
     image: https://file.garden/aUYIWVAKvQxCBY-_/screenbugs/micronick.png
+
+- number: 38
+  name: Movie Previews
+  abbr: PREV
+  title: Sneak Prevue
+  description: Preview the hottest movies on Pay-Per-View and On Demand!

@@ -4,12 +4,12 @@ noise: 0
 blur: false 
 bezel: flat 
 changeChannelNoise: false
+scanlines: false
 
 refs:
   placeholder: 
     image: directv.png
-  webn:
-  backgroundAudio: https://stream.revma.ihrhls.com/zc1701/hls.m3u8?streamid=1701&zip=&aw_0_1st.playerid=iHeartRadioWebPlayer&aw_0_1st.skey=11554381129&clientType=web&companionAds=false&deviceName=web-mobile&dist=iheart&host=webapp.US&listenerId=&playedFrom=157&pname=live_profile&profileId=11554381129&stationid=1701&terminalId=159&territory=US
+
   placeholder2: 
     image: place2.png
   closed: 
@@ -51,8 +51,6 @@ channels:
   abbr: OTCS
   video: 
    src: https://otcs.minuspoint.com/hls/0/stream.m3u8?cachebust=3146f9
-   volume: false
-  backgroundAudio: https://file.garden/aUYIWVAKvQxCBY-_/soho-sound.mp3
    
 
 - number: 2
@@ -226,4 +224,4 @@ channels:
   abbr: WEBN
   image: files/directv_musicslide.png
   description: Cincinnati's Rock Station
-  ref: webn
+  backgroundAudio: https://stream.revma.ihrhls.com/zc1701/hls.m3u8?streamid=1701&zip=&aw_0_1st.playerid=iHeartRadioWebPlayer&aw_0_1st.skey=11554381129&clientType=web&companionAds=false&deviceName=web-mobile&dist=iheart&host=webapp.US&listenerId=&playedFrom=157&pname=live_profile&profileId=11554381129&stationid=1701&terminalId=159&territory=US

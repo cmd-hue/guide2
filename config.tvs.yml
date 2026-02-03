@@ -6,6 +6,21 @@ bezel: flat
 changeChannelNoise: false
 scanlines: false
 
+
+# Scrapped Channels
+#- number: 37
+#  name: MicroNick
+#  title: MicroNick
+#  abbr: MICRONICK
+#  description: A micro version of Nickelodeon for nonstop dankpods
+#  mix:
+#   a:
+#    opacity: 0.6
+#   youtube-playlist: UUf7Jwj9fkrf1adN4fMmTkpug
+#   b:
+#    image: https://file.garden/aUYIWVAKvQxCBY-_/screenbugs/micronick.png
+
+
 refs:
   placeholder: 
     image: directv.png
@@ -252,21 +267,19 @@ channels:
 
 
 
+
 - number: 37
-  name: MicroNick
-  title: MicroNick
-  abbr: MICRONICK
-  description: A micro version of Nickelodeon for nonstop dankpods
-  mix:
-   a:
-    opacity: 0.6
-    youtube-playlist: UUf7Jwj9fkrf1adN4fMmTkpug
-   b:
-    image: https://file.garden/aUYIWVAKvQxCBY-_/screenbugs/micronick.png
+  name: Kitsune Channel
+  abbr: KSC
+  title: Kitsune Channel
+  description: Retro gaming and retro style PC gaming
+  video: https://live.kitsunech.jp.net/hls/0/stream.m3u8
+  icon: channelicons/KSC.png
+
 
 - number: 38
-  name: Movie Previews
-  abbr: PREV
-  title: Sneak Prevue
-  description: Preview the hottest movies on Pay-Per-View and On Demand!
-
+  name: RetroBlast
+  abbr: RTB
+  description: Retro Cartoons and Promos
+  video: https://retroblast.tv/hls/0/stream.m3u8
+  icon: channelicons/RTB.png

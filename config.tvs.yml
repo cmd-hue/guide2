@@ -225,17 +225,5 @@ channels:
   title: 102.7 WEBN - Cincinnati's Rock Station
   abbr: WEBN
   image: files/directv_musicslide.png
-  description: Music Choice Rock Channel
+  description: Cincinnati's Rock Station
   ref: webn
-
-- number: 33
-  name: Maryland Public Television
-  abbr: WWPB
-  title: WWPB HD
-  icon: placeholders/pbs.png
-  title: Maryland Public Television
-  video:
-   volume: true
-   provider: hls
-   src: https://2-fss-2.streamhoster.com/pl_138/amlst:201814-1291584/chunklist_b4000000.m3u8
-

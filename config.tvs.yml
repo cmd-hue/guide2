@@ -35,7 +35,7 @@ osd:
 
 noSignalContent:
   image: files/DirecTV_Slide.png
-  backgroundAudio: https://cmd-hue.github.io/guide2/offairmusic.m3u8
+  backgroundAudio: https://file.garden/aUYIWVAKvQxCBY-_/music/enjoydaily.mp3
   title: OFF AIR
 
 defaultChannel: 1

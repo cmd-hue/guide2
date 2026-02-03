@@ -242,7 +242,7 @@ channels:
   description: Live stream of Play Area 1 at Camp Bow Wow dog daycare and boarding facility in Cincinnati, Ohio.
   video: https://cbwcincinnati.campbowwow.pro/h264/PlayArea2/temp.m3u8
 
-- number: 34
+- number: 36
   name: Camp Bow Wow - Play Area 3
   title: Play Area 3 Live Stream
   description: Live stream of Play Area 3 at Camp Bow Wow dog daycare and boarding facility in Cincinnati, Ohio.

@@ -49,7 +49,7 @@ channels:
 - number: 1
   name: DirecTV Channel List
   abbr: DTVCH
-  backgroundAudio: http://radio.plaza.one/mp3
+  backgroundAudio: https://radio.plaza.one/mp3
   backgroundAudioOptions:
     description: Nightwave Plaza Radio 
     nowPlayingUrl: https://api.plaza.one/status 

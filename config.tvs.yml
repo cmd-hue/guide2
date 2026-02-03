@@ -214,11 +214,24 @@ channels:
 
 - number: 31
   name: Music Choice Rock
-  video: https://edge.music-choice-chaina.top.comcast.net/streamwebaca3/AudioChannels/44/O0U9MTc3MDA3Njc0ODtBPTE7Sz0wO1A9MDExMTA7Uz0wZTRhMmJiNmVlOGQwZGRiYmRjMDNmMjFlZjNjYzY2MGZjMjE0ZmU5/chunklist.m3u8
+  title: Music Choice Rock Channel
+  abbr: ROCK
+  image: files/directv_musicslide.png
+  description: Music Choice Rock Channel
+  backgroundAudio: https://edge.music-choice-chaina.top.comcast.net/streamwebaca3/AudioChannels/44/O0U9MTc3MDA3Njc0ODtBPTE7Sz0wO1A9MDExMTA7Uz0wZTRhMmJiNmVlOGQwZGRiYmRjMDNmMjFlZjNjYzY2MGZjMjE0ZmU5/chunklist.m3u8
 
 - number: 32
+  name: 102.7 WEBN
+  title: 102.7 WEBN - Cincinnati's Rock Station
+  abbr: WEBN
+  image: files/directv_musicslide.png
+  description: Music Choice Rock Channel
+  ref: webn
+
+- number: 33
   name: Maryland Public Television
   abbr: WWPB
+  title: WWPB HD
   icon: placeholders/pbs.png
   title: Maryland Public Television
   video:

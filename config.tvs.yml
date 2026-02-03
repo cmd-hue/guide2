@@ -259,8 +259,8 @@ channels:
   abbr: MICRONICK
   description: A micro version of Nickelodeon for nonstop dankpods
   mix:
-  a:
+   a:
     opacity: 0.6
     youtube-playlist: UULf7Jwj9fkrf1adN4fMmTkpug
-  b:
+   b:
     image: https://file.garden/aUYIWVAKvQxCBY-_/screenbugs/micronick.png

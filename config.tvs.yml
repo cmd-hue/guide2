@@ -254,5 +254,13 @@ channels:
 
 
 - number: 37
-  name: morks
-  image: https://cmd-hue.github.io/logo.png
+  name: MicroNick
+  title: MicroNick
+  abbr: MICRONICK
+  description: A micro version of Nickelodeon for nonstop dankpods
+  mix:
+  a:
+    opacity: 0.6
+    youtube-playlist: UULf7Jwj9fkrf1adN4fMmTkpug
+  b:
+    image: https://file.garden/aUYIWVAKvQxCBY-_/screenbugs/micronick.png

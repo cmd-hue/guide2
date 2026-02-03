@@ -35,8 +35,8 @@ osd:
 
 noSignalContent:
   image: files/DirecTV_Slide.png
-  backgroundAudio: https://cmd-hue.github.io/guide2/offairmusic.m3u
-  title: SIGN OFF
+  backgroundAudio: https://cmd-hue.github.io/guide2/offairmusic.m3u8
+  title: OFF AIR
 
 defaultChannel: 1
 

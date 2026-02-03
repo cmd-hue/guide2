@@ -226,29 +226,26 @@ channels:
   backgroundAudio: https://stream.revma.ihrhls.com/zc1701/hls.m3u8?streamid=1701&zip=&aw_0_1st.playerid=iHeartRadioWebPlayer&aw_0_1st.skey=11554381129&clientType=web&companionAds=false&deviceName=web-mobile&dist=iheart&host=webapp.US&listenerId=&playedFrom=157&pname=live_profile&profileId=11554381129&stationid=1701&terminalId=159&territory=US
 
 
-- number: 33
-  name: 88 Stereo Latino  
-  video: https://k3.usastreams.com/CableLatino/88stereo/playlist.m3u8
 
-- number: 34
+- number: 33
   name: Camp Bow Wow - Play Area 1
   title: Play Area 1 Live Stream
   description: Live stream of Play Area 1 at Camp Bow Wow dog daycare and boarding facility in Cincinnati, Ohio.
   video: https://cbwcincinnati.campbowwow.pro/h264/PlayArea1/temp.m3u8
 
-- number: 35
+- number: 34
   name: Camp Bow Wow - Play Area 2
   title: Play Area 2 Live Stream
   description: Live stream of Play Area 1 at Camp Bow Wow dog daycare and boarding facility in Cincinnati, Ohio.
   video: https://cbwcincinnati.campbowwow.pro/h264/PlayArea2/temp.m3u8
 
-- number: 36
+- number: 35
   name: Camp Bow Wow - Groom Room
   title: Groom Room Live Stream
   description: Live stream of Groom Room at Camp Bow Wow dog daycare and boarding facility in Cincinnati, Ohio.
   video: https://cbwcincinnati.campbowwow.pro/h264/GroomRoom/temp.m3u8
 
-- number: 37
+- number: 36
   name: LIVENOW From FOX
   title: LIVENOW From FOX - LG Channels
   description: 24/7 News

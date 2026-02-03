@@ -49,12 +49,10 @@ channels:
 - number: 1
   name: Old Timey Computer Show
   abbr: OTCS
-  video:
-    provider: hls
-    src: https://otcs.minuspoint.com/
-  noSignalContent:
-    image: files/DirecTV_Slide.png
-    backgroundAudio: https://file.garden/aUYIWVAKvQxCBY-_/soho-sound.mp3
+  video: 
+   src: https://otcs.minuspoint.com/hls/0/stream.m3u8?cachebust=3146f9
+   volume: false
+  backgroundAudio: https://file.garden/aUYIWVAKvQxCBY-_/soho-sound.mp3
    
 
 - number: 2

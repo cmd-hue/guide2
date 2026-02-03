@@ -47,25 +47,24 @@ dimensions:
 channels:
 
 - number: 1
+  name: DirecTV Channel List
+  abbr: DTVCH
+  backgroundAudio: http://radio.plaza.one/mp3
+  backgroundAudioOptions:
+    description: Nightwave Plaza Radio 
+    nowPlayingUrl: https://api.plaza.one/status 
+    nowPlayingProvider: plaza-one
+  channel-list: 
+    columns: 3 
+    duration: 10
+    backgroundImage: files/bg.jpg 
+    logo: files/directv_large.png 
+
+- number: 2
   name: Old Timey Computer Show
   abbr: OTCS
   video: 
    src: https://otcs.minuspoint.com/hls/0/stream.m3u8?cachebust=3146f9
-   
-
-- number: 2
-  name: Program Guide
-  title: Electronic Program Guide
-  noise: 0.1
-  guide:
-        logo: https://upload.wikimedia.org/wikipedia/commons/4/46/Windows_7_Classic_Error_Active.png
-        alerts:
-          - position: 10
-            image: https://upload.wikimedia.org/wikipedia/commons/4/46/Windows_7_Classic_Error_Active.png
-          - position: 30
-            image: https://upload.wikimedia.org/wikipedia/commons/1/1c/Android_4.1_lockscreen_on_Galaxy_Nexus_20120712.jpg
-          - position: 50
-            image: https://upload.wikimedia.org/wikipedia/commons/1/1c/Android_4.1_lockscreen_on_Galaxy_Nexus_20120712.jpg
 
 
     
@@ -226,11 +225,7 @@ channels:
   description: Cincinnati's Rock Station
   backgroundAudio: https://stream.revma.ihrhls.com/zc1701/hls.m3u8?streamid=1701&zip=&aw_0_1st.playerid=iHeartRadioWebPlayer&aw_0_1st.skey=11554381129&clientType=web&companionAds=false&deviceName=web-mobile&dist=iheart&host=webapp.US&listenerId=&playedFrom=157&pname=live_profile&profileId=11554381129&stationid=1701&terminalId=159&territory=US
 
+
 - number: 33
-  name: DirecTV Picks
-  abbr: DTVP
-  channel-list: 
-    columns: 3 
-    duration: 10
-    backgroundImage: files/bg.jpg 
-    logo: files/directv_large.png 
+  name: 88 Stereo Latino  
+  video: https://k3.usastreams.com/CableLatino/88stereo/playlist.m3u8

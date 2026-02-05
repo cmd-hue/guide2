@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<style>
+    @import url(https://file.garden/aUYIWVAKvQxCBY-_/fonts/ffdin/stylesheet.css);
+body {
+    background: url(https://cmd-hue.github.io/guide2/announcementbg.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    font-family:'DINPro', 'Roboto', Arial, sans-serif;
+    color: white;
+}
+
+center {
+    top: 128px;
+    font-size: 50;
+    text-align: -webkit-center;
+    font-family: arial;
+}
+
+.f {
+    opacity: 0
+}
+</style>
+</head>
+<body>
+<center class="f">TEST</center>
+<center class="f">TEST</center>
+<center class="news">news text</center>
+<script async>
+var newstxt = document.getElementsByClassName("news")[0]
+async function loadTxt() {
+  const res = await fetch("https://cmd-hue.github.io/guide2/news/tvnews.txt");
+  return await res.text();
+}
+
+let rawText;
+loadTxt().then(text => {
+  rawText = text;
+  newstxt.innerHTML = rawText
+});
+
+</script>
+</body>
+</html>

@@ -312,7 +312,15 @@ channels:
 
 
 - number: 43
-  abbr: MVS
-  title: MovieSphere
-  name: MovieSphere
-  video: https://moviesphere-roku.amagi.tv/playlist720lp.m3u8
+  abbr: DIN
+  title: DirecNews
+  name: DirecNews
+  iframe: 
+   src: https://cmd-hue.github.io/news/index.html
+   allowInteraction: false
+   refreshIntervalSeconds: 120
+  backgroundAudio: https://radio.plaza.one/mp3
+  backgroundAudioOptions:
+    description: Nightwave Plaza Radio 
+    nowPlayingUrl: https://api.plaza.one/status 
+    nowPlayingProvider: plaza-one

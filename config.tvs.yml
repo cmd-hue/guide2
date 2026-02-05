@@ -29,10 +29,10 @@ refs:
     image: place2.png
   closed: 
     image: deadchannel.png
-    description:  This channel is no longer available.
+  suspended:
+    image: outagedtv.png
   error: 
-    image: tverror.png
-    description: Channel not available. Please try another channel.
+    image: dtverror.png
 
 osd:
   theme: sat2012
@@ -49,8 +49,7 @@ osd:
       - Parental
 
 noSignalContent:
-  image: files/DirecTV_Slide.png
-  backgroundAudio: https://file.garden/aUYIWVAKvQxCBY-_/music/enjoydaily.mp3
+  image: outagedtv.png
 
 defaultChannel: 1
 

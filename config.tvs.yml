@@ -316,7 +316,7 @@ channels:
   title: DirecNews
   name: DirecNews
   iframe: 
-   src: https://cmd-hue.github.io/news/index.html
+   src: https://cmd-hue.github.io/guide2/news/index.html
    allowInteraction: false
    refreshIntervalSeconds: 120
   backgroundAudio: https://radio.plaza.one/mp3

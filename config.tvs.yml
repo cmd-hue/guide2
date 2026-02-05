@@ -56,8 +56,8 @@ noSignalContent:
 defaultChannel: 1
 
 dimensions:
-  screenWidth: 1280 
-  screenHeight: 720
+  screenWidth: 640 
+  screenHeight: 360
 
 
 channels:
@@ -336,9 +336,22 @@ channels:
     nowPlayingProvider: plaza-one
 
 - number: 44
-  icon: https://cmd-hue.github.io/guide2/channelicons/AFSW.png
-  abbr: AFSW
-  title: After Swim
-  name: After Swim
-  description: idk
-  video: https://owncast.afterswim.org/hls/stream.m3u8
+  abbr: EAS
+  title: EAS Details Channel
+  name: EAS Details Channel
+  description: Brought to you by Mist Weather. Shows EAS Alerts 24/7.
+  video: https://watch.mistweather.com/hls/tues/2_1/index.m3u8
+
+- number: 45
+  video: https://watch.mistweather.com/hls/kwsf01/2_1/index.m3u8
+  title: KWSF-IP
+  name: KWSF-IP
+  description: Brought to you by Mist Weather.
+  icon: https://live.mistwx.com/channels/logos/kwsf01.jpg
+
+- number: 46
+  video: https://watch.mistweather.com/hls/sspwxr02/playlist.m3u8
+  title: METEOchannel SD Canadian Weather
+  name: METEOchannel SD
+  description: 24/7 Canadian Weather - Brought to you by Mist Weather.
+  icon: https://live.mistwx.com/channels/logos/sspwxr02.jpg

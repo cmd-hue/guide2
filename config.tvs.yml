@@ -56,8 +56,8 @@ noSignalContent:
 defaultChannel: 1
 
 dimensions:
-  screenWidth: 640 
-  screenHeight: 360
+  screenWidth: 1280
+  screenHeight: 720
 
 
 channels:
@@ -65,18 +65,24 @@ channels:
 - number: 1
   name: DirecTV Channel List
   title: DirecTV Channel List
-  description: Channels A-Z
+  description: Channel List
   abbr: DTVCH
   backgroundAudio: https://radio.plaza.one/mp3
   backgroundAudioOptions:
     description: Nightwave Plaza Radio 
     nowPlayingUrl: https://api.plaza.one/status 
     nowPlayingProvider: plaza-one
-  channel-list: 
-    columns: 3 
-    duration: 10
-    backgroundImage: files/bg.jpg 
-    logo: files/directv_large.png 
+  guide:
+        logo: files/directv_large.png
+        alerts:
+          - position: 1
+            text: | 
+              Brought to you by: Mist Weather for METEOchannel, KWSF and the EAS Details Channel.
+          - position: 20
+            text: | 
+              Adult Swim. 5:00PM to 6:00AM On Cartoon Network.
+          - position: 45
+            image: placeholders/guide-ad-3.png
 
 - number: 2
   name: Old Timey Computer Show
@@ -99,7 +105,7 @@ channels:
   video: https://cmd-hue.github.io/albuquerque.mp4
 
 - number: 5
-  name: Greenhill Public Access
+  name: Dunceville Public Access
   video: 
    src: https://ch2.tvs.gcpw.art/stream_480p.m3u8
    volume: false

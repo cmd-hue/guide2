@@ -1,4 +1,4 @@
-applicationTitle: DunceHouse DirecTV # What the DirecTV UI might have looked like in 2012
+applicationTitle: Dunceville Hotel TV # What the DirecTV UI might have looked like in 2012
 
 startUnmuted: true
 
@@ -73,7 +73,6 @@ channels:
     nowPlayingUrl: https://api.plaza.one/status 
     nowPlayingProvider: plaza-one
   guide:
-        logo: files/directv_large.png
         alerts:
           - position: 1
             text: | 

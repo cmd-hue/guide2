@@ -54,8 +54,8 @@ noSignalContent:
 defaultChannel: 1
 
 dimensions:
-  screenWidth: 640 
-  screenHeight: 360
+  screenWidth: 1280 
+  screenHeight: 720
 
 
 channels:

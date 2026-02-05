@@ -336,9 +336,9 @@ channels:
     nowPlayingProvider: plaza-one
 
 - number: 44
-  icon: https://i.imgur.com/fsJFJeZ.png
-  abbr: SOFY
-  title: Sofy.tv
-  name: Sofy.tv
+  icon: https://cmd-hue.github.io/guide2/channelicons/AFSW.png
+  abbr: AFSW
+  title: After Swim
+  name: After Swim
   description: idk
-  video: https://sofytv-samsungit.amagi.tv/playlist.m3u8
+  video: https://owncast.afterswim.org/hls/stream.m3u8

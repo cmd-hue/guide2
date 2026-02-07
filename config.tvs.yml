@@ -22,7 +22,6 @@ scanlines: false
 #   b:
 #    image: https://file.garden/aUYIWVAKvQxCBY-_/screenbugs/micronick.png
 
-
 refs:
   placeholder: 
     image: directv.png
@@ -89,15 +88,12 @@ channels:
   video: 
    src: https://otcs.minuspoint.com/hls/0/stream.m3u8?cachebust=3146f9
 
-
     
 - number: 3
   name: Oak Ridge TV
   title: Oak Ridge TV
   description: Oak Ridge TV
-  
   video: https://ch3.tvs.gcpw.art/stream_480p.m3u8
-
 
 - number: 4
   name: Albuquerque
@@ -109,7 +105,6 @@ channels:
    src: https://ch2.tvs.gcpw.art/stream_480p.m3u8
    volume: false
   backgroundAudio: https://cmd-hue.github.io/albuquerque.mp3
-
 
 - number: 6
   name: Placeholder Channel
@@ -179,72 +174,43 @@ channels:
     scrollSpeed: 35
     scrollDelay: 6
 
-
 - number: 19
   name: Fox Weather 24/7
   video: https://247wlive.foxweather.com/stream/index_640x360.m3u8
-
 
 - number: 20
   name: CBBC/BBC THREE
   video: https://viamotionhsi.netplus.ch/live/eds/bbc3cbbc/browser-HLS8/bbc3cbbc.m3u8
 
 - number: 21
-  name: Disney XD
-  video: https://fl7.moveonjoy.com/DISNEY_XD/index.m3u8
-  icon: https://upload.wikimedia.org/wikipedia/commons/a/a8/2015_Disney_XD_logo.svg
-
-- number: 22
-  name: Cartoon Network
-  video: https://fl61.moveonjoy.com/CARTOON_NETWORK/playlist.m3u8
-  description: Nightshares With Adult Swim 5:00PM - 6:00AM Eastern Time
-  icon: https://upload.wikimedia.org/wikipedia/commons/8/80/Cartoon_Network_2010_logo.svg
-
-- number: 23
-  name: Nickelodeon
-  video: https://fl31.moveonjoy.com/NICKELODEON/index.m3u8
-  description: Nightshares With nick at nite 5:00PM - 6:00AM Eastern Time
-  icon: https://upload.wikimedia.org/wikipedia/commons/5/5f/Nickelodeon_logo_%282003%2C_short_name%29.svg
-
-- number: 24
   name: VH1 Soul
   video: https://fl1.moveonjoy.com/BET_SOUL/index.m3u8
   icon: https://upload.wikimedia.org/wikipedia/en/8/8d/VH1_Soul.svg
 
-
-- number: 25
+- number: 22
   name: FGTEEV
   video: https://amg00285-amg00285c3-firetv-us-6596.playouts.now.amagi.tv/playlist240p.m3u8
   icon: https://yt3.ggpht.com/8lYzEQAP23681vKEG0ahOTlsM6kBwvq8fNDWgNzhq8cYTlPcBVWGZifL6huG9M_3AedplOvpjlQ=s176-c-k-c0x00ffffff-no-rj-mo
 
-- number: 26
-  name: NickToons
-  description: Nicktoons is the brand name used by Nickelodeon for their original animated series.
-  video: https://fl1.moveonjoy.com/NICKTOONS/index.m3u8
-
-- number: 27
+- number: 23
   name: California Music
   video: https://cmc-ono.amagi.tv/hls/amagi_hls_data_cmcAAAAAA-cmc-ono/CDN/640x360_1205600/index.m3u8
 
-- number: 28
-  name: Disney Channel
-  video: https://fl31.moveonjoy.com/DISNEY/index.m3u8
-
-- number: 29
+- number: 24
   name: BBC Three
   video: https://streamer.nexyl.uk/39290a19-b8dd-43ea-b8dc-081c37790f24.m3u8
 
-- number: 30
+- number: 25
   name: Cartoon Rewind
   video: https://amg00136-wbd-amg00136c75-tablo-us-7211.playouts.now.amagi.tv/playlist240P.m3u8
 
-- number: 31
+- number: 26
   name: Music Choice Rock
   title: Music Choice Rock Channel
   abbr: ROCK
   ref: closed
 
-- number: 32
+- number: 27
   name: 102.7 WEBN
   title: 102.7 WEBN - Cincinnati's Rock Station
   abbr: WEBN
@@ -254,34 +220,31 @@ channels:
 
 
 
-- number: 33
+- number: 28
   name: Camp Bow Wow - Play Area 1
   title: Play Area 1 Live Stream
   description: Live stream of Play Area 1 at Camp Bow Wow dog daycare and boarding facility in Cincinnati, Ohio.
   video: https://cbwcincinnati.campbowwow.pro/h264/PlayArea1/temp.m3u8
 
-- number: 34
+- number: 29
   name: Camp Bow Wow - Play Area 2
   title: Play Area 2 Live Stream
   description: Live stream of Play Area 1 at Camp Bow Wow dog daycare and boarding facility in Cincinnati, Ohio.
   video: https://cbwcincinnati.campbowwow.pro/h264/PlayArea2/temp.m3u8
 
-- number: 35
+- number: 30
   name: Camp Bow Wow - Groom Room
   title: Groom Room Live Stream
   description: Live stream of Groom Room at Camp Bow Wow dog daycare and boarding facility in Cincinnati, Ohio.
   video: https://cbwcincinnati.campbowwow.pro/h264/GroomRoom/temp.m3u8
 
-- number: 36
+- number: 31
   name: LIVENOW From FOX
   title: LIVENOW From FOX - LG Channels
   description: 24/7 News
   video: https://amg00488-foxdigital-livenowbyfox-lgus-y0a81.amagi.tv/ts-us-w2-n2/playlist/amg00488-foxdigital-livenowbyfox-lgus/cb573d1e7c6c6c9098cb3d78d1f74682857b3dcb0e6c886470af4a9765d9775884b7e1b0af348c78149719b1670e7d505962cf18c07c1fc7c76ad91174204213cfcac9229d86170ab5c60c2c3aab016635837209c0790a79dca93d0d8636ba304530e01b615b37c2ec5da96852db80148b6f4adafb8c2360625f5c98435ee3b24aa5ffe65c408a68f2ac1c48c42b58e68314c8c94ebd82dd469d128571a7469c9bf389d61088a6ab5af803f17a0a57326d98f21af9a80dec8cf00538986266421b43efa096f74a4ec02d070ca1fc98be66fb47838a27d7337aef06c94cc932db39f844f3b04bf9ace9dd141960f4c1017b4dc6e4a499b52032cf7691acc4d2697595fa153712873d986a1369c1a68b3796ec26d6ae7bd38b3f497891c510cfccfcd3a1e0c40abd35dacbf1af3840656a104dd30ef5d43e8d69955380fa3e0d100d48a4915084a1dc5d3b6d06c6a356c61c16bc94dad78b406b8430550aa853d85d047ec57b392fb263aacc6613e34d0b812673fa48258e43f1bd5e85cdb5e90138bddfc94cfa63fc8a1dd7f458c607545806a0bc2b5653420fb384075d6a0aa92ee5d7d9af740615e2e3dfe7b23752650c240862e185e67488c0cc280964a23947302e637df005d27a9109597247a37983e2593ad5487177a3cd515c5e7fd8ccb4978ed5cf50ac6fd6bd8e535e0b5c71ae3c0b276293958254ed2d5f7b6807f4650942b9141446e59bc6f18a8562c2ee07c059322663af887fc0a2cf111968aea32aba6bec9a09bc9f8a6fd8ee991756f744c9633ebfa011e8658ffbaa610082be5f59469ad635cc702cbd779e4bda941850d72485d9c7e40842ac7486c78a5c5f3c3fa28ce7202273ef6ab29fe2fcf56e5fe4904d3c09cd347d717f793605b4d6d42b5535bcfc6fde0cb7b0158a507b007f5f86d43f08d2a82648c9612f2ef5ee9bc2edeb1300c66bc370cb4b0ab218587db6826bbcc3fad8d2b342784c99baa247bee1af84cfddc56f3e28642294cc5a1a268c72bedc49b1e34d3cdc888de4c867d820b162f5d7e05c8f56c9e8b41ca19d98bed4446d1b3031dbcef8fd18dec67866b369d4402858d1cac7fc77f4d7b94757d91f87a1027da52a714dc3c8aa569ecbd92bf7cf4be160d5b28f96837a8a891f4f49cb3041f0/126/848x480_963600/index.m3u8
 
-
-
-
-- number: 37
+- number: 32
   name: Kitsune Channel
   abbr: KSC
   title: Kitsune Channel
@@ -289,43 +252,41 @@ channels:
   video: https://live.kitsunech.jp.net/hls/0/stream.m3u8
   icon: channelicons/KSC.png
 
-
-- number: 38
+- number: 33
   name: RetroBlast
   abbr: RTB
   description: Retro Cartoons and Promos
   video: https://retroblast.tv/hls/0/stream.m3u8
   icon: channelicons/RTB.png
 
-- number: 39
-  name: N64
+- number: 34
   title: N64
   abbr: N64
+  name: N64
   description: N64 Live Stream on kick.
   video: https://use21.playlist.live-video.net/v1/playlist/CvUFeUS5VtQ7JpYtGGnV7epOqAH9_wFaGL5c-z7W0V0oxdytdxDoZScwcV7S3vrhC5BKNRYpZCyPWvhiguDRZkXEaxbifmoBIEgkWkn6XldB07oP_Fm_FXAOn0BUkAfWv8qRMLUIBNCT2QbROzcBQGVx56uuhf75_hFa8JBVaDhccZF4Bt2pheWPC5H2-bZ6tz1ywq6Rhpjouyc1ovvRZxIm3aTG7hrHksWaVebwVk1wnGSqHp9C3HgzedfBFDrMW1sgCbr8IAm0Uo6r05xzFAnPbAT_PsoySO3FnbGBlv5jSuh0hpCPO51QrwqRbOCNPzlre-hg3fjlERTF2p3hi5OYms4j87_UFOOwJMCwYwhqG9EKOmq2ip1A5J0MM1X6W808zmCHfClZp7taNWR9F9-d6k_cYpqoYbj1bmlDs4jc9vqRzmpU0h-Na1cfopMeIavruXO4xLDPDVMSowEDEkDOpXbE43Zw5Vnn-dG4_SNSvUnrGfvBf1dbhXVTwr-ijmGbBrUlcKP6QJOnf_ps64NzJEadUDa2oMZCLd-76tKIBdiL843YXPsFkxE151_aHJWdkgWNPBjvc5MCl3NzsKwH-2JumMDPfAzd9AkyLetrJ-z8wtfnlyIzpck5zlJlHSu3dv8oQya2x4UV2zptAwP3nKRFxcqaTelTpkz4mEM4d4nhO1MzLEbzh3njcgkLV8gcvjmk7G2ehegVJLTd06yCDP4nuFSBBHrqbIwuL4lKY2CFk1Wqf5QWsFd2fDnzgxeiQx77ZifD1Pk6603nUvHQOwMyJ797U40uAjRtJxIoQwQ2bK84-04qiqIrQxJvmZfCOlFh0LSZNmxKHnCZ9FDY0yFmu6dGeWKq5Ub5GzmCaHC1z2263HgzB0tB9tmgu1Dlj48dJyQOm5o9JvRFMro3ScYYCHtaUzFC291-HcvHC2JIpWlBXUO-clZpVhIpEz6FMP6bnod9fgHqaAHLzfAk_vQ6A1OfP0ruwd5F5jYHPJyxtJUcghoMYnn9V6ae4LQ1_r2LIAEqCXVzLWVhc3QtMjCrDg.m3u8
 
-- number: 40
+
+- number: 35
   abbr: TWITCH
   name: Twitch Stream
   twitch: twitchsports
 
-- number: 41
+- number: 36
   abbr: Buzzr
   name: Buzzr
   title: Buzzr
   icon: https://i.imgur.com/VihFt5p.png
   video: https://buzzrota-web.amagi.tv/playlist.m3u8
 
-
-- number: 42
+- number: 37
   abbr: GLN
   title: Global News
   name: Global News
   icon: https://camo.githubusercontent.com/a39efc80d8dd04755894c071d624320813d74a9be9ff2c6cc37ba665a35091cd/68747470733a2f2f692e696d6775722e636f6d2f4970666d4739332e706e67
   video: https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/master.m3u8
 
-
-- number: 43
+- number: 38
   abbr: DCA
   title: DirecAnnounce
   name: DirecAnnounce
@@ -340,21 +301,21 @@ channels:
     nowPlayingUrl: https://api.plaza.one/status 
     nowPlayingProvider: plaza-one
 
-- number: 44
+- number: 39
   abbr: EAS
   title: EAS Details Channel
   name: EAS Details Channel
   description: Brought to you by Mist Weather. Shows EAS Alerts 24/7.
   video: https://watch.mistweather.com/hls/tues/2_1/index.m3u8
 
-- number: 45
+- number: 40
   video: https://watch.mistweather.com/hls/kwsf01/2_1/index.m3u8
   title: KWSF-IP
   name: KWSF-IP
   description: Brought to you by Mist Weather.
   icon: https://live.mistwx.com/channels/logos/kwsf01.jpg
 
-- number: 46
+- number: 41
   video: https://watch.mistweather.com/hls/sspwxr02/playlist.m3u8
   title: METEOchannel SD Canadian Weather
   name: METEOchannel SD

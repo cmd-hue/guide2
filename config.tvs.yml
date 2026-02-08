@@ -42,7 +42,7 @@ refs:
    
   imageloop:
     slideshow:
-     duration: 10
+     duration: 5
      images:
      - https://loremflickr.com/640/360?random=1
      - https://loremflickr.com/640/360?random=2
@@ -52,6 +52,8 @@ refs:
      - https://files.catbox.moe/m28u78.jpg
      - https://loremflickr.com/640/360?random=6
      - https://loremflickr.com/640/360?random=7
+     - https://i.ytimg.com/vi/ZQDZVl59W6o/hqdefault.jpg
+     - https://i.ytimg.com/vi/ZQDZVl59W6o/hqdefault.jpg
 
 osd:
   theme: sat2012
@@ -421,3 +423,11 @@ channels:
   title: Image Loop
   abbr: imgl
   ref: imageloop
+
+- number: 42
+  name: CN Plus
+  video: https://watch.mistweather.com/hls/cnplus/playlist.m3u8
+  info:
+    title: CN Plus
+    summary: Check it 1.0 Revival
+    rating: TV-Y7

@@ -40,7 +40,7 @@ refs:
         src: https://cmd-hue.github.io/guide2/ads.json
         autoAdvance: true
    
-   imageloop:
+  imageloop:
     slideshow:
      duration: 10
      images:

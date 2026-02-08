@@ -1,5 +1,5 @@
 {
-  "googleFonts": ["Roboto", "Merriweather","Lobster","Oswald"],
+  "googleFonts": ["Roboto", "Merriweather","Lobster","Oswald","Roboto Condensed","Linefont"],
   "pages": [
     {
       "lines": [
@@ -31,11 +31,17 @@
           "fontSize": "20px",
           "color": "white",
           "fontFamily": "Merriweather",
-          "textAlign": "left",
-          "isItalic": true
+          "textAlign": "up"
+        },
+        {
+          "text": "Somebody up there loves you.",
+          "fontSize": "20px",
+          "color": "white",
+          "fontFamily": "Roboto Condensed",
+          "textAlign": "center"
         }
       ],
-      "background": "url('thank-you-background.jpg')",
+      "background": "#222",
       "duration": 5,
       "transitionIn": "zoom",
       "transitionOut": "fade"

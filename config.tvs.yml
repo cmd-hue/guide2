@@ -34,6 +34,11 @@ refs:
     image: outagedtv.png
   error: 
     image: dtverror.png
+  ad-loop: 
+   loop:
+   - basic-text: 
+        src: https://cmd-hue.github.io/guide2/ads.json
+        autoAdvance: true
 
 osd:
   theme: sat2012
@@ -89,6 +94,10 @@ channels:
               Adult Swim. 5:00PM to 6:00AM On Cartoon Network.
           - position: 30
             image: placeholders/guide-ad-3.png
+          - position: 40
+            video: 
+             src: https://ch3.tvs.gcpw.art/stream_480p.m3u8
+             volume: false
 
 - number: 2
   name: Old Timey Computer Show
@@ -397,7 +406,4 @@ channels:
 - number: 41
   name: ADS
   title: ADS
-  loop:
-   - basic-text: 
-        src: https://cmd-hue.github.io/guide2/ads.json
-        autoAdvance: true
+  

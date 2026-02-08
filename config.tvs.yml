@@ -39,6 +39,19 @@ refs:
    - basic-text: 
         src: https://cmd-hue.github.io/guide2/ads.json
         autoAdvance: true
+   
+   imageloop:
+    slideshow:
+     duration: 10
+     images:
+     - https://loremflickr.com/640/360?random=1
+     - https://loremflickr.com/640/360?random=2
+     - https://loremflickr.com/640/360?random=3
+     - https://loremflickr.com/640/360?random=4
+     - https://loremflickr.com/640/360?random=5
+     - https://files.catbox.moe/m28u78.jpg
+     - https://loremflickr.com/640/360?random=6
+     - https://loremflickr.com/640/360?random=7
 
 osd:
   theme: sat2012
@@ -404,6 +417,7 @@ channels:
   iframe: https://weatherstar.netbymatt.com/?hazards-checkbox=true&current-weather-checkbox=true&latest-observations-checkbox=true&hourly-checkbox=false&hourly-graph-checkbox=true&travel-checkbox=false&regional-forecast-checkbox=true&local-forecast-checkbox=true&extended-forecast-checkbox=true&almanac-checkbox=true&spc-outlook-checkbox=true&radar-checkbox=true&settings-wide-checkbox=false&settings-kiosk-checkbox=false&settings-stickyKiosk-checkbox=false&settings-customFeedEnable-checkbox=false&settings-speed-select=1.00&settings-scanLineMode-select=auto&settings-units-select=us&txtLocation=Fairfield%2C+OH%2C+USA+%28Butler+County%29&settings-customFeed-string=&share-link-url=&settings-scanLines-checkbox=false&settings-mediaVolume-select=0.75&latLonQuery=Fairfield%2C+OH%2C+USA+%28Butler+County%29&latLon=%7B%22lat%22%3A39.3354%2C%22lon%22%3A-84.5596%7D&kiosk=true
 
 - number: 41
-  name: ADS
-  title: ADS
-  
+  name: Image Loop
+  title: Image Loop
+  abbr: imgl
+  ref: imageloop

@@ -1,23 +1,44 @@
 {
-    "defaults": {
-        "background": "black",
-        "color": "white",
-        "fontFamily": "Prevue Grid",
-        "fontSize": "1.5rem"
-    },
-    "pages": [
+  "googleFonts": ["Roboto", "Merriweather","Lobster","Oswald"],
+  "pages": [
+    {
+      "lines": [
         {
-            "lines": [
-                { "text": "Nexus S 4G" },
-                { "text": "Only from Sprint." }
-            ]
+          "text": "Save Money, Live Better, Walmart",
+          "fontSize": "32px",
+          "color": "white",
+          "fontFamily": "Oswald",
+          "textAlign": "center",
+          "backgroundColor": "#333"
         },
-{
-            "lines": [
-                { "text": "Veggie Patties!" },
-                { "text": "Healthy!" },
-                { "text": "Only $0.76 at OmegaMart!" }
-            ]
+        {
+          "text": "Brought to you by Sauerkraut Haters Club.",
+          "fontSize": "18px",
+          "color": "white",
+          "fontFamily": "Roboto",
+          "textAlign": "right"
         }
-    ]
+      ],
+      "background": "#000",
+      "duration": 10,
+      "transitionIn": "fade",
+      "transitionOut": "slide"
+    },
+    {
+      "lines": [
+        {
+          "text": "Somebody up there loves you.",
+          "fontSize": "20px",
+          "color": "white",
+          "fontFamily": "Merriweather",
+          "textAlign": "left",
+          "isItalic": true
+        }
+      ],
+      "background": "url('thank-you-background.jpg')",
+      "duration": 5,
+      "transitionIn": "zoom",
+      "transitionOut": "fade"
+    }
+  ]
 }

@@ -1,0 +1,43 @@
+{
+  "googleFonts": ["Roboto", "Merriweather","Lobster","Oswald"],
+  "pages": [
+    {
+      "lines": [
+        {
+          "text": "",
+          "fontSize": "32px",
+          "color": "white",
+          "fontFamily": "Oswald",
+          "textAlign": "center",
+          "backgroundColor": "#333"
+        },
+        {
+          "text": "Brought to you by Sauerkraut Haters Club.",
+          "fontSize": "18px",
+          "color": "white",
+          "fontFamily": "Roboto",
+          "textAlign": "right"
+        }
+      ],
+      "background": "#000",
+      "duration": 10,
+      "transitionIn": "fade",
+      "transitionOut": "slide"
+    },
+    {
+      "lines": [
+        {
+          "text": "Somebody up there loves you. - DirecTV",
+          "fontSize": "20px",
+          "color": "black",
+          "fontFamily": "Merriweather",
+          "textAlign": "left"
+        }
+      ],
+      "background": "white",
+      "duration": 5,
+      "transitionIn": "zoom",
+      "transitionOut": "fade"
+    }
+  ]
+}

@@ -71,7 +71,15 @@ channels:
     description: Nightwave Plaza Radio 
     nowPlayingUrl: https://api.plaza.one/status 
     nowPlayingProvider: plaza-one
-  guide:
+      v-split: 
+    a: 
+      loop:
+      - basic-text: 
+          src: https://cmd-hue.github.io/guide-ads.json
+          autoAdvance: true
+    b:
+      guide:
+        theme: 1989
         alerts:
           - position: 1
             text: | 
@@ -79,7 +87,7 @@ channels:
           - position: 20
             text: | 
               Adult Swim. 5:00PM to 6:00AM On Cartoon Network.
-          - position: 45
+          - position: 30
             image: placeholders/guide-ad-3.png
 
 - number: 2
@@ -379,3 +387,17 @@ channels:
   description: 24/7 Canadian weather forecasting and information from METEOchannel.
   video: https://watch.mistweather.com/hls/sspwxr02/playlist.m3u8
   icon: https://live.mistwx.com/channels/logos/sspwxr02.jpg
+
+- number: 40
+  name: The Weather Channel
+  title: The Weather Channel (Net By Matt iFrame)
+  abbr: TWC
+  iframe: https://weatherstar.netbymatt.com/?hazards-checkbox=true&current-weather-checkbox=true&latest-observations-checkbox=true&hourly-checkbox=false&hourly-graph-checkbox=true&travel-checkbox=false&regional-forecast-checkbox=true&local-forecast-checkbox=true&extended-forecast-checkbox=true&almanac-checkbox=true&spc-outlook-checkbox=true&radar-checkbox=true&settings-wide-checkbox=false&settings-kiosk-checkbox=false&settings-stickyKiosk-checkbox=false&settings-customFeedEnable-checkbox=false&settings-speed-select=1.00&settings-scanLineMode-select=auto&settings-units-select=us&txtLocation=Fairfield%2C+OH%2C+USA+%28Butler+County%29&settings-customFeed-string=&share-link-url=&settings-scanLines-checkbox=false&settings-mediaVolume-select=0.75&latLonQuery=Fairfield%2C+OH%2C+USA+%28Butler+County%29&latLon=%7B%22lat%22%3A39.3354%2C%22lon%22%3A-84.5596%7D&kiosk=true
+
+- number: 41
+  name: ADS
+  title: ADS
+  loop:
+   - basic-text: 
+        src: https://cmd-hue.github.io/ads.json
+        autoAdvance: true

@@ -71,7 +71,7 @@ channels:
     description: Nightwave Plaza Radio 
     nowPlayingUrl: https://api.plaza.one/status 
     nowPlayingProvider: plaza-one
-      v-split: 
+  v-split: 
     a: 
       loop:
       - basic-text: 

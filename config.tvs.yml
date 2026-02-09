@@ -430,4 +430,8 @@ channels:
   info:
     title: CN Plus
     summary: Check it 1.0 Revival
-    rating: TV-Y7
+
+- number: 43
+  name: Fairfield Weather Radio
+  title: Weather Radio
+  visualizer: https://wxradio.org/OH-Columbus-KIG86

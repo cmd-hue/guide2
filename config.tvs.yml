@@ -208,11 +208,11 @@ channels:
   visualizer: https://cmd-hue.github.io/assets/joyfulblud.mp3
 
 - number: 14
-  name: Picsum Test
-  title: Picsum Test
-  abbr: PICSUM
-  description: Random image display test channel.
-  image: https://fastly.picsum.photos/640/480
+  name: Weather Cat
+  title: Weather Cat
+  abbr: WTC
+  description:  wait what
+  video: https://watch.mistweather.com/hls/jaiden/playlist.m3u8
 
 - number: 15
   name: Toon Goggles
@@ -435,3 +435,10 @@ channels:
   name: Fairfield Weather Radio
   title: Weather Radio
   visualizer: https://wxradio.org/OH-Columbus-KIG86
+
+- number: 44
+  name: The Animation Channel
+  title: The Animation Channel
+  description: The Animation Channel starts at around 9PM or earlier i think
+  icon: https://live.mistweather.com/channels/logos/tac.jpg
+  video: https://watch.mistweather.com/hls/tac/playlist.m3u8

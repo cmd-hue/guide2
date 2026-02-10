@@ -441,4 +441,36 @@ channels:
   title: The Animation Channel
   description: The Animation Channel starts at around 9PM or earlier i think
   icon: https://live.mistweather.com/channels/logos/tac.jpg
-  video: https://watch.mistweather.com/hls/tac/playlist.m3u8
+  video: https://watch.mistweather.com/hls/tac/playlist.
+  
+- number: 45
+  name: Daily Schedule Testing
+  abbr: SCHED
+  daily-schedule: # The daily schedule engine allows you to define content based on a 24-hour schedule. You can go overnight, but you can't overlap content. The schedule will repeat each day.
+    noSignalContent: # Optional. You can specify content to show when there's nothing else scheduled.
+      color: black
+
+    content:
+    - startTime: "20:00" # Time to start this item, in 24 hour format. Required.
+      endTime: "05:00" # Time to end this item, in 24 hour format. Required.
+      image: # The content to show. Required.
+        src: placeholders/schedule-night.png
+        pixelated: true
+
+    - startTime: "05:00"
+      endTime: "11:00"
+      image:
+        src: placeholders/schedule-morning.png
+        pixelated: true
+
+    - startTime: "11:00"
+      endTime: "20:00"
+      image:
+        src: placeholders/schedule-day.png
+        pixelated: true
+
+- number: 46
+  video: https://tvpass.org/live/NFLRedZone/hd
+  title: NFL RedZone
+  name:  NFL RedZone
+  description: might not work due to cors
